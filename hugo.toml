@@ -7,27 +7,34 @@ relativeURLs = true
 [params]
   defaultTheme = "auto"
 
+  [params.profileMode]
+    enabled = true
+    title = "David Wardan"
+    subtitle = "Machine Learning Engineer | PhD Student"
+    imageUrl = "images/profile.png"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "David Wardan"
+    buttons = [
+      { name = "Posts", url = "/posts" }
+    ]
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/davidwardan"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/davidwardan"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/davidwardan"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:wardandavid@gmail.com"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
-
-[params]
-  defaultTheme = "auto"
-  profileMode = 
-    { enabled = true, title = "David Wardan", 
-    subtitle = "Machine Learning Engineer | PhD Student", 
-    imageUrl = "images/profile.png", 
-    imageWidth = 120, 
-    mageHeight = 120, 
-    imageTitle = "David Wardan", 
-    buttons = [{name = "Posts", url = "/posts"}]}
-
-[params.socialIcons]
-  - name = "github"
-    url = "https://github.com/davidwardan"
-  - name = "linkedin"
-    url = "https://linkedin.com/in/davidwardan"
-  - name = "twitter"
-    url = "https://twitter.com/davidwardan"
-  - name = "email"
-    url = "mailto:wardandavid@gmail.com"
