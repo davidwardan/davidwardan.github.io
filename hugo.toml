@@ -1,0 +1,7 @@
+baseURL = 'https://davidwardan.github.io/davidwardan.github.io/'
+languageCode = 'en-us'
+title = "David's Blog"
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "auto"
