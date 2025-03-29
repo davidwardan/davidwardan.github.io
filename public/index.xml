@@ -2,48 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>David&#39;s Blog</title>
-    <link>http://localhost:1313/davidwardan.github.io/</link>
+    <link>https://davidwardan.github.io/davidwardan.github.io/</link>
     <description>Recent content on David&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Mar 2025 22:50:29 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/davidwardan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://davidwardan.github.io/davidwardan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beirut Construction Age Classification</title>
-      <link>http://localhost:1313/davidwardan.github.io/projects/project1/</link>
+      <link>https://davidwardan.github.io/davidwardan.github.io/projects/project1/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>http://localhost:1313/davidwardan.github.io/projects/project1/</guid>
-      <description>A project to classify construction age in Beirut using deep learning and computer vision techniques.</description>
+      <guid>https://davidwardan.github.io/davidwardan.github.io/projects/project1/</guid>
+      <description>Classifying Beirut’s building construction periods using advanced deep learning and street-view imagery.</description>
+    </item>
+    <item>
+      <title>Disadvantaged Area Detection in Beirut using Satellite Imagery</title>
+      <link>https://davidwardan.github.io/davidwardan.github.io/projects/project2/</link>
+      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
+      <guid>https://davidwardan.github.io/davidwardan.github.io/projects/project2/</guid>
+      <description>Identifying disadvantaged areas in Beirut through satellite imagery analysis and machine learning techniques.</description>
+    </item>
+    <item>
+      <title>Structural Scheming for Post-Tensioned Slabs using Machine Learning</title>
+      <link>https://davidwardan.github.io/davidwardan.github.io/projects/project3/</link>
+      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
+      <guid>https://davidwardan.github.io/davidwardan.github.io/projects/project3/</guid>
+      <description>A project leveraging machine learning to optimize the structural design and scheming of post-tensioned slabs.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/davidwardan.github.io/posts/my-first-post/</link>
+      <link>https://davidwardan.github.io/davidwardan.github.io/posts/my-first-post/</link>
       <pubDate>Fri, 28 Mar 2025 10:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/davidwardan.github.io/posts/my-first-post/</guid>
+      <guid>https://davidwardan.github.io/davidwardan.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hello World! Welcome to my Hugo blog.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/davidwardan.github.io/about/</link>
+      <link>https://davidwardan.github.io/davidwardan.github.io/about/</link>
       <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/davidwardan.github.io/about/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
-&lt;p&gt;I am a Data Scientist and Machine Learning Engineer with a foundation in Civil Engineering. Currently, I am pursuing a Ph.D. at Polytechnique Montréal, focusing on Online &amp;amp; Continual learning for Neural Networks.&lt;/p&gt;
-&lt;h2 id=&#34;research-interests&#34;&gt;Research Interests&lt;/h2&gt;
+      <guid>https://davidwardan.github.io/davidwardan.github.io/about/</guid>
+      <description>&lt;p&gt;👋 &lt;strong&gt;Hi there! I&amp;rsquo;m David.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a Machine Learning Engineer and Data Scientist with roots firmly planted in Civil Engineering. Currently, I&amp;rsquo;m diving deep into a Ph.D. at Polytechnique Montréal, where I’m exploring how neural networks can continuously learn and adapt—without losing their minds (or mine).&lt;/p&gt;
+&lt;p&gt;Whether it&amp;rsquo;s ensuring infrastructure safety through advanced algorithms or navigating waves of data, I&amp;rsquo;m always looking for elegant solutions to complex problems.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-what-drives-my-research&#34;&gt;🎯 &lt;strong&gt;What drives my research:&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Probabilistic Machine Learning&lt;/strong&gt;: Leveraging probabilistic frameworks to quantify uncertainty and improve model reliability.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Online and Continual Learning&lt;/strong&gt;: Designing models that efficiently adapt in real-time, continuously integrating new knowledge without forgetting past insights.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Global Modelling of Time Series&lt;/strong&gt;: Building scalable models that capture temporal dependencies across diverse data sources and timeframes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Structural Health Monitoring&lt;/strong&gt;: Applying advanced machine learning techniques to assess infrastructure integrity and detect anomalies effectively.&lt;/li&gt;
+&lt;li&gt;🧠 &lt;strong&gt;Probabilistic Machine Learning&lt;/strong&gt;: Understanding uncertainty to build smarter, more reliable models.&lt;/li&gt;
+&lt;li&gt;🔄 &lt;strong&gt;Online and Continual Learning&lt;/strong&gt;: Crafting AI systems that continuously evolve in real-time without forgetting their past.&lt;/li&gt;
+&lt;li&gt;📈 &lt;strong&gt;Global Modelling of Time Series&lt;/strong&gt;: Capturing the big picture in temporal data, from earthquakes to financial markets.&lt;/li&gt;
+&lt;li&gt;🌉 &lt;strong&gt;Structural Health Monitoring&lt;/strong&gt;: Keeping our infrastructure safe and sound using cutting-edge AI and sensor data.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;-my-academic-journey&#34;&gt;📚 &lt;strong&gt;My Academic Journey:&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ph.D. in Civil Engineering&lt;/strong&gt;, Polytechnique Montréal, 2024 - Present&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Master&amp;rsquo;s of Engineering&lt;/strong&gt;, American University of Beirut, 2023&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bachelor&amp;rsquo;s in Civil Engineering&lt;/strong&gt;, Lebanese American University, 2020&lt;/li&gt;
+&lt;li&gt;🎓 &lt;strong&gt;Ph.D. in Civil Engineering&lt;/strong&gt;, &lt;em&gt;Polytechnique Montréal&lt;/em&gt; &lt;em&gt;(2024 - Present)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;🎓 &lt;strong&gt;Master of Engineering&lt;/strong&gt;, &lt;em&gt;American University of Beirut&lt;/em&gt; &lt;em&gt;(2023)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;🎓 &lt;strong&gt;Bachelor’s in Civil Engineering&lt;/strong&gt;, &lt;em&gt;Lebanese American University&lt;/em&gt; &lt;em&gt;(2020)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;hobbies--interests&#34;&gt;Hobbies &amp;amp; Interests&lt;/h2&gt;
-&lt;p&gt;When I’m away from my keyboard, you’ll probably find me on a board either snowboarding down powdery mountains, attempting to stay upright while surfing waves, or negotiating with my stubborn Shiba Inu about who’s really in charge (spoiler: it&amp;rsquo;s not me).&lt;/p&gt;</description>
+&lt;hr&gt;
+&lt;h3 id=&#34;-when-i&#34;&gt;🏂🌊🐕 &lt;strong&gt;When I&amp;rsquo;m off-duty&amp;hellip;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;If I’m not fine-tuning neural nets, you&amp;rsquo;ll probably find me balancing (or falling!) on something:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

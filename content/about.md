@@ -4,29 +4,51 @@ date: 2025-03-28
 draft: false
 ---
 
-## About Me
+👋 **Hi there! I'm David.**
 
-I am a Data Scientist and Machine Learning Engineer with a foundation in Civil Engineering. Currently, I am pursuing a Ph.D. at Polytechnique Montréal, focusing on Online & Continual learning for Neural Networks.
+I'm a Machine Learning Engineer and Data Scientist with roots firmly planted in Civil Engineering. Currently, I'm diving deep into a Ph.D. at Polytechnique Montréal, where I’m exploring how neural networks can continuously learn and adapt—without losing their minds (or mine).
 
-## Research Interests
-
-- **Probabilistic Machine Learning**: Leveraging probabilistic frameworks to quantify uncertainty and improve model reliability.
-- **Online and Continual Learning**: Designing models that efficiently adapt in real-time, continuously integrating new knowledge without forgetting past insights.
-- **Global Modelling of Time Series**: Building scalable models that capture temporal dependencies across diverse data sources and timeframes.
-- **Structural Health Monitoring**: Applying advanced machine learning techniques to assess infrastructure integrity and detect anomalies effectively.
-
-## Education
-
-- **Ph.D. in Civil Engineering**, Polytechnique Montréal, 2024 - Present
-- **Master's of Engineering**, American University of Beirut, 2023
-- **Bachelor's in Civil Engineering**, Lebanese American University, 2020
-
-## Hobbies & Interests
-
-When I’m away from my keyboard, you’ll probably find me on a board either snowboarding down powdery mountains, attempting to stay upright while surfing waves, or negotiating with my stubborn Shiba Inu about who’s really in charge (spoiler: it's not me).
-
-Life’s all about balance, and mine involves balancing neural networks by weekday and balancing on surfboards by weekend—both with varying levels of success!
+Whether it's ensuring infrastructure safety through advanced algorithms or navigating waves of data, I'm always looking for elegant solutions to complex problems.
 
 ---
 
-*This page was last updated on 28-03-25.*
+### 🎯 **What drives my research:**
+
+- 🧠 **Probabilistic Machine Learning**: Understanding uncertainty to build smarter, more reliable models.
+- 🔄 **Online and Continual Learning**: Crafting AI systems that continuously evolve in real-time without forgetting their past.
+- 📈 **Global Modelling of Time Series**: Capturing the big picture in temporal data, from earthquakes to financial markets.
+- 🌉 **Structural Health Monitoring**: Keeping our infrastructure safe and sound using cutting-edge AI and sensor data.
+
+---
+
+### 📚 **My Academic Journey:**
+
+- 🎓 **Ph.D. in Civil Engineering**, *Polytechnique Montréal* _(2024 - Present)_
+- 🎓 **Master of Engineering**, *American University of Beirut* _(2023)_
+- 🎓 **Bachelor’s in Civil Engineering**, *Lebanese American University* _(2020)_
+
+---
+
+### 🏂🌊🐕 **When I'm off-duty...**
+
+If I’m not fine-tuning neural nets, you'll probably find me balancing (or falling!) on something:
+
+- 🏔️ **Snowboarding** down fresh powder slopes.
+- 🌊 **Surfing** waves (still figuring out how gravity works).
+- 🐕 Debating life choices with my stubborn Shiba Inu, who firmly believes he’s the boss (he is).
+
+Life’s about balance—sometimes literally—and I aim to find mine between neural networks and surfboards.
+
+---
+
+### 📫 **Let's Connect!**
+
+I'm always happy to talk about research, ideas, or collaborations—or just share dog stories. Reach out:
+
+- 💬 [LinkedIn](https://www.linkedin.com/in/david-wardan/)
+- 🐙 [GitHub](https://github.com/davidwardan)
+- 📧 [wardandavid@gmail.com](mailto:wardandavid@gmail.com)
+
+---
+
+*Last updated: March 28, 2025.*
