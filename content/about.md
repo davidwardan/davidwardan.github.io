@@ -23,9 +23,9 @@ Whether it's ensuring infrastructure safety through advanced algorithms or navig
 
 ### 📚 **My Academic Journey:**
 
-- 🎓 **Ph.D. in Civil Engineering**, *Polytechnique Montréal* _(2024 - Present)_
-- 🎓 **Master of Engineering**, *American University of Beirut* _(2023)_
-- 🎓 **Bachelor’s in Civil Engineering**, *Lebanese American University* _(2020)_
+- **Ph.D. in Civil Engineering**, *Polytechnique Montréal* _(2024 - Present)_
+- **Master of Engineering**, *American University of Beirut* _(2023)_
+- **Bachelor’s in Civil Engineering**, *Lebanese American University* _(2020)_
 
 ---
 
@@ -37,7 +37,7 @@ If I’m not fine-tuning neural nets, you'll probably find me balancing (or fall
 - 🌊 **Surfing** waves (still figuring out how gravity works).
 - 🐕 Debating life choices with my stubborn Shiba Inu, who firmly believes he’s the boss (he is).
 
-Life’s about balance—sometimes literally—and I aim to find mine between neural networks and surfboards.
+<img src="/images/shiba.jpg" alt="My Shiba Inu pretending to listen" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
 
 ---
 
