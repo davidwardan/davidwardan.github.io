@@ -4,6 +4,7 @@ title = "David's Blog"
 theme = 'PaperMod'
 relativeURLs = true
 
+
 [params]
   defaultTheme = "auto"
 
@@ -31,6 +32,10 @@ relativeURLs = true
   [[params.socialIcons]]
     name = "email"
     url = "mailto:wardandavid@gmail.com"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-7VRWL6E41Q'
 
 [caches]
   [caches.images]
