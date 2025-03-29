@@ -1,10 +1,10 @@
 ---
 title: "About Me"
+date: 2025-03-28
+draft: false
 ---
 
 ## About Me
-
-![David Wardan](images/profile.jpg)
 
 I am a Data Scientist and Machine Learning Engineer with a foundation in Civil Engineering. Currently, I am pursuing a Ph.D. at Polytechnique Montréal, focusing on Online & Continual learning for Neural Networks.
 
@@ -26,14 +26,6 @@ I am a Data Scientist and Machine Learning Engineer with a foundation in Civil E
 When I’m away from my keyboard, you’ll probably find me on a board either snowboarding down powdery mountains, attempting to stay upright while surfing waves, or negotiating with my stubborn Shiba Inu about who’s really in charge (spoiler: it's not me).
 
 Life’s all about balance, and mine involves balancing neural networks by weekday and balancing on surfboards by weekend—both with varying levels of success!
-
-## Contact
-
-Feel free to connect with me:
-
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [linkedin.com/in/david-wardan/](https://www.linkedin.com/in/david-wardan/)
-- **GitHub**: [github.com/davidwardan](https://github.com/davidwardan)
 
 ---
 
