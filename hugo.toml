@@ -9,13 +9,15 @@ relativeURLs = true
 
   [params.profileMode]
     enabled = true
-    title = "David Wardan"
-    subtitle = "Machine Learning Engineer | PhD Student"
+    title = "👋 Hello, Early Visitor!"
+    subtitle = "You've arrived early—like, really early. Come back in a month or two while I figure out how to build this thing!"
     imageUrl = "images/profile.png"
     imageWidth = 120
     imageHeight = 120
     imageTitle = "David Wardan"
     buttons = [
+      { name = "About Me", url = "/about/" },
+      { name = "Projects", url = "/projects/" },
       { name = "Posts", url = "/posts" }
     ]
 
