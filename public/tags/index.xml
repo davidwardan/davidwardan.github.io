@@ -6,6 +6,28 @@
     <description>Recent content in Tags on David&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 28 Mar 2025 22:50:29 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/davidwardan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Vision</title>
+      <link>http://localhost:1313/davidwardan.github.io/tags/computer-vision/</link>
+      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/davidwardan.github.io/tags/deep-learning/</link>
+      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Image Classification</title>
+      <link>http://localhost:1313/davidwardan.github.io/tags/image-classification/</link>
+      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/image-classification/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

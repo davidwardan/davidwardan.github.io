@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 28 Mar 2025 22:50:29 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/davidwardan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Projects</title>
-      <link>http://localhost:1313/davidwardan.github.io/projects/projects/</link>
+      <title>Beirut Construction Age Classification</title>
+      <link>http://localhost:1313/davidwardan.github.io/projects/project1/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>http://localhost:1313/davidwardan.github.io/projects/projects/</guid>
-      <description></description>
+      <guid>http://localhost:1313/davidwardan.github.io/projects/project1/</guid>
+      <description>A project to classify construction age in Beirut using deep learning and computer vision techniques.</description>
     </item>
     <item>
       <title>My First Post</title>
