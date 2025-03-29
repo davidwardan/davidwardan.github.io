@@ -15,11 +15,6 @@ relativeURLs = true
     imageWidth = 120
     imageHeight = 120
     imageTitle = "David Wardan"
-    buttons = [
-      { name = "About Me", url = "/about/" },
-      { name = "Projects", url = "/projects/" },
-      { name = "Posts", url = "/posts" }
-    ]
 
   [[params.socialIcons]]
     name = "github"
@@ -45,6 +40,11 @@ relativeURLs = true
   name = "About"
   url = "/about/"
   weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
 
 [[menu.main]]
   name = "Projects"
