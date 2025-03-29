@@ -37,7 +37,7 @@ If I’m not fine-tuning neural nets, you'll probably find me balancing (or fall
 - 🌊 **Surfing** waves (still figuring out how gravity works).
 - 🐕 Debating life choices with my stubborn Shiba Inu, who firmly believes he’s the boss (he is).
 
-<img src="/images/shiba.jpg" alt="My Shiba Inu pretending to listen" style="width:200px; height:200px; object-fit:cover; border-radius:50%;" />
+![My Shiba Inu pretending to listen](./images/shiba.png)
 
 ---
 
