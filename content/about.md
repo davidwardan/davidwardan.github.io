@@ -23,9 +23,9 @@ Whether it's ensuring infrastructure safety through advanced algorithms or navig
 
 ### 📚 **My Academic Journey:**
 
-- **Ph.D. in Civil Engineering**, *Polytechnique Montréal* _(2024 - Present)_
+- **Ph.D. in Engineering**, *Polytechnique Montréal* _(2024 - Present)_
 - **Master of Engineering**, *American University of Beirut* _(2023)_
-- **Bachelor’s in Civil Engineering**, *Lebanese American University* _(2020)_
+- **Bachelor’s of Engineering**, *Lebanese American University* _(2020)_
 
 ---
 
