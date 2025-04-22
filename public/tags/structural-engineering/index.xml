@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Structural Engineering on David&#39;s Blog</title>
-    <link>https://davidwardan.github.io/davidwardan.github.io/tags/structural-engineering/</link>
+    <link>http://localhost:1313/davidwardan.github.io/tags/structural-engineering/</link>
     <description>Recent content in Structural Engineering on David&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Mar 2025 22:50:29 -0400</lastBuildDate>
-    <atom:link href="https://davidwardan.github.io/davidwardan.github.io/tags/structural-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/davidwardan.github.io/tags/structural-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Structural Scheming for Post-Tensioned Slabs using Machine Learning</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/projects/project3/</link>
+      <link>http://localhost:1313/davidwardan.github.io/projects/project3/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/projects/project3/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/projects/project3/</guid>
       <description>A project leveraging machine learning to optimize the structural design and scheming of post-tensioned slabs.</description>
     </item>
   </channel>

@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on David&#39;s Blog</title>
-    <link>https://davidwardan.github.io/davidwardan.github.io/tags/</link>
+    <link>http://localhost:1313/davidwardan.github.io/tags/</link>
     <description>Recent content in Tags on David&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Mar 2025 22:50:29 -0400</lastBuildDate>
-    <atom:link href="https://davidwardan.github.io/davidwardan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/davidwardan.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/deep-learning/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/deep-learning/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/deep-learning/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/deep-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Geospatial Analysis</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/geospatial-analysis/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/geospatial-analysis/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/geospatial-analysis/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/geospatial-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/machine-learning/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/machine-learning/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/machine-learning/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Post-Tensioned Slabs</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/post-tensioned-slabs/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/post-tensioned-slabs/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/post-tensioned-slabs/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/post-tensioned-slabs/</guid>
       <description></description>
     </item>
     <item>
       <title>Satellite Imagery</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/satellite-imagery/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/satellite-imagery/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/satellite-imagery/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/satellite-imagery/</guid>
       <description></description>
     </item>
     <item>
       <title>Street-View Imagery</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/street-view-imagery/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/street-view-imagery/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/street-view-imagery/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/street-view-imagery/</guid>
       <description></description>
     </item>
     <item>
       <title>Structural Engineering</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/structural-engineering/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/structural-engineering/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/structural-engineering/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/structural-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Urban Analysis</title>
-      <link>https://davidwardan.github.io/davidwardan.github.io/tags/urban-analysis/</link>
+      <link>http://localhost:1313/davidwardan.github.io/tags/urban-analysis/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>https://davidwardan.github.io/davidwardan.github.io/tags/urban-analysis/</guid>
+      <guid>http://localhost:1313/davidwardan.github.io/tags/urban-analysis/</guid>
       <description></description>
     </item>
   </channel>
