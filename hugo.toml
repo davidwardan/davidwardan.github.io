@@ -1,12 +1,14 @@
-baseURL = 'https://davidwardan.github.io/davidwardan.github.io/'
+# Default (production) settings
+baseURL = "https://davidwardan.github.io/"
 languageCode = 'en-us'
 title = "David's Blog"
 theme = 'PaperMod'
 relativeURLs = true
-
+canonifyURLs = false  # Add this to avoid absolute URLs during development
 
 [params]
   defaultTheme = "auto"
+  env = "production"  # Add environment flag
 
   [params.profileMode]
     enabled = true
