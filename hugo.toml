@@ -4,11 +4,12 @@ languageCode = 'en-us'
 title = "David's Blog"
 theme = 'PaperMod'
 relativeURLs = true
-canonifyURLs = false  # Add this to avoid absolute URLs during development
+canonifyURLs = true 
 
 [params]
   defaultTheme = "auto"
-  env = "production"  # Add environment flag
+  env = "production"
+  math = true 
 
   [params.profileMode]
     enabled = true
