@@ -55,6 +55,6 @@ canonifyURLs = true
   weight = 2
 
 [[menu.main]]
-  name = "Me"
+  name = "About"
   url = "/about/"
   weight = 3

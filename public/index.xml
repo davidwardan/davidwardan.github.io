@@ -4,7 +4,7 @@
     <title>David&#39;s Blog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on David&#39;s Blog</description>
-    <generator>Hugo -- 0.145.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -44,19 +44,70 @@
       <description>A lightweight, composable time-series cleaning pipeline.</description>
     </item>
     <item>
-      <title>Me</title>
+      <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;not-just-a-neural-net&#34;&gt;Not Just a Neural Net&lt;/h1&gt;
-&lt;p&gt;When I&amp;rsquo;m not teaching computers to be smarter than me, I&amp;rsquo;m usually:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;🏂 &lt;strong&gt;Snowboarding&lt;/strong&gt;: Gravity is my favorite physics engine to test.&lt;/li&gt;
-&lt;li&gt;🌊 &lt;strong&gt;Surfing&lt;/strong&gt;: Less successful physics testing, more water ingestion.&lt;/li&gt;
-&lt;li&gt;🐕 &lt;strong&gt;Debating my Shiba Inu&lt;/strong&gt;: He makes compelling arguments (usually involving treats).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I build stuff, break stuff, and occasionally fix stuff.&lt;/p&gt;
-&lt;h3 id=&#34;journey&#34;&gt;Journey&lt;/h3&gt;
+      <description>&lt;h1 id=&#34;interests&#34;&gt;Interests&lt;/h1&gt;
+&lt;p&gt;When my I do not have a keyboard in front of me, I enjoy:&lt;/p&gt;
+&lt;div class=&#34;interests-container&#34;&gt;
+    &lt;div class=&#34;interest-item&#34;&gt;&lt;div class=&#34;interest-icon&#34;&gt;🏂&lt;/div&gt;
+        &lt;div class=&#34;interest-text&#34;&gt;Snowboarding&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;interest-item&#34;&gt;&lt;div class=&#34;interest-icon&#34;&gt;🌊&lt;/div&gt;
+        &lt;div class=&#34;interest-text&#34;&gt;Surfing&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;interest-item&#34;&gt;&lt;div class=&#34;interest-icon&#34;&gt;🐕&lt;/div&gt;
+        &lt;div class=&#34;interest-text&#34;&gt;Debating my Shiba&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;interest-item&#34;&gt;&lt;div class=&#34;interest-icon&#34;&gt;🌞&lt;/div&gt;
+        &lt;div class=&#34;interest-text&#34;&gt;Vitamin D&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;interest-item&#34;&gt;&lt;div class=&#34;interest-icon&#34;&gt;☕&lt;/div&gt;
+        &lt;div class=&#34;interest-text&#34;&gt;Coffee&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;  
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.interest-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 120px;
+}
+
+.interest-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.interest-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+@media (max-width: 600px) {
+    .interests-container {
+        gap: 1rem;
+    }
+    .interest-icon {
+        font-size: 2rem;
+    }
+}
+&lt;/style&gt;
+
+&lt;h1 id=&#34;journey&#34;&gt;Journey&lt;/h1&gt;
 &lt;div class=&#34;timeline-header-row&#34;&gt;
     &lt;div class=&#34;col-header header-left&#34;&gt;Academic&lt;/div&gt;
     &lt;div class=&#34;col-header header-right&#34;&gt;Industry&lt;/div&gt;

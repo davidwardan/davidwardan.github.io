@@ -1,20 +1,21 @@
 ---
-title: "Me"
+title: "About"
 date: 2025-12-12
 draft: false
 ---
 
-# Not Just a Neural Net
+# Interests
 
-When I'm not teaching computers to be smarter than me, I'm usually:
+When my I do not have a keyboard in front of me, I enjoy:
 
-- 🏂 **Snowboarding**: Gravity is my favorite physics engine to test.
-- 🌊 **Surfing**: Less successful physics testing, more water ingestion.
-- 🐕 **Debating my Shiba Inu**: He makes compelling arguments (usually involving treats).
+{{< interests
+"🏂|Snowboarding"
+"🌊|Surfing"
+"🐕|Debating my Shiba"
+"🌞|Vitamin D"
+"☕|Coffee" >}}
 
-I build stuff, break stuff, and occasionally fix stuff.
-
-### Journey
+# Journey
 
 {{< timeline_dual >}}
 

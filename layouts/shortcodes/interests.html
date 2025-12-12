@@ -1,0 +1,48 @@
+<div class="interests-container">
+    {{- range $index, $item := .Params }}
+    <div class="interest-item">
+        {{- $parts := split $item "|" -}}
+        <div class="interest-icon">{{ index $parts 0 }}</div>
+        <div class="interest-text">{{ index $parts 1 }}</div>
+    </div>
+    {{- end }}
+</div>
+
+<style>
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center; /* Center items */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.interest-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 120px;
+}
+
+.interest-icon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.interest-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+@media (max-width: 600px) {
+    .interests-container {
+        gap: 1rem;
+    }
+    .interest-icon {
+        font-size: 2rem;
+    }
+}
+</style>
