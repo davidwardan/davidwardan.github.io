@@ -1,0 +1,167 @@
+<div class="profile">
+    {{- with site.Params.profileMode }}
+    <div class="profile_inner">
+        {{- if .imageUrl -}}
+            {{- $img := "" }}
+            {{- if not (urls.Parse .imageUrl).IsAbs }}
+                {{- $img = resources.Get .imageUrl }}
+            {{- end }}
+            
+            {{- $cartoonImg := resources.Get "images/profile_cartoon.png" }}
+            {{- $cartoonUrl := "images/profile_cartoon.png" }}
+
+            {{- if $img }}
+                {{- $processableFormats := (slice "jpg" "jpeg" "png" "tif" "bmp" "gif") -}}
+                {{- if hugo.IsExtended -}}
+                    {{- $processableFormats = $processableFormats | append "webp" -}}
+                {{- end -}}
+                {{- $prod := (hugo.IsProduction | or (eq site.Params.env "production")) }}
+                
+                {{- if and (in $processableFormats $img.MediaType.SubType) (eq $prod true)}}
+                    {{- if (not (and (not .imageHeight) (not .imageWidth))) }}
+                        {{- $img = $img.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                        {{- if $cartoonImg }}
+                            {{- $cartoonImg = $cartoonImg.Resize (printf "%dx%d" .imageWidth .imageHeight) }}
+                        {{- end }}
+                    {{- else if .imageHeight }}
+                        {{- $img = $img.Resize (printf "x%d" .imageHeight) }}
+                        {{- if $cartoonImg }}
+                            {{- $cartoonImg = $cartoonImg.Resize (printf "x%d" .imageHeight) }}
+                        {{- end }}
+                    {{ else if .imageWidth }}
+                        {{- $img = $img.Resize (printf "%dx" .imageWidth) }}
+                        {{- if $cartoonImg }}
+                            {{- $cartoonImg = $cartoonImg.Resize (printf "%dx" .imageWidth) }}
+                        {{- end }}
+                    {{ else }}
+                        {{- $img = $img.Resize "150x150" }}
+                        {{- if $cartoonImg }}
+                            {{- $cartoonImg = $cartoonImg.Resize "150x150" }}
+                        {{- end }}
+                    {{- end }}
+                {{- end }}
+            {{- end }}
+            
+            <div class="profile-image-container">
+                {{- if $img }}
+                <img class="profile-image-normal" draggable="false" src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                    height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+                {{- else }}
+                <img class="profile-image-normal" draggable="false" src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}" title="{{ .imageTitle }}"
+                    height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+                {{- end }}
+
+                {{- if $cartoonImg }}
+                <img class="profile-image-cartoon" draggable="false" src="{{ $cartoonImg.Permalink }}" alt="{{ .imageTitle | default "profile image" }} cartoon" title="{{ .imageTitle }} Cartoon"
+                    height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+                {{- else }}
+                <img class="profile-image-cartoon" draggable="false" src="{{ $cartoonUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }} cartoon" title="{{ .imageTitle }} Cartoon"
+                    height="{{ .imageHeight | default 150 }}" width="{{ .imageWidth | default 150 }}" />
+                {{- end }}
+            </div>
+
+            <style>
+                .profile-image-container {
+                    position: relative;
+                    display: inline-block;
+                    width: {{ .imageWidth | default 150 }}px;
+                    height: {{ .imageHeight | default 150 }}px;
+                    margin-bottom: var(--gap);
+                }
+                .profile-image-container img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: opacity 0.1s ease-in-out;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .profile-image-normal {
+                    opacity: 1;
+                    z-index: 2;
+                }
+                .profile-image-cartoon {
+                    opacity: 0;
+                    z-index: 1;
+                }
+                .profile-image-container:hover .profile-image-normal {
+                    opacity: 0;
+                }
+                .profile-image-container:hover .profile-image-cartoon {
+                    opacity: 1;
+                    z-index: 3;
+                }
+            </style>
+
+        {{- end }}
+        <h1>{{ .title | default site.Title | markdownify }}</h1>
+        <span>{{ .subtitle | markdownify }}</span>
+        {{- partial "social_icons.html" -}}
+        <div class="user-pillars">
+            <a href="/research" class="pillar-card">
+                <span class="pillar-icon">🧠</span>
+                <h3>Research</h3>
+                <p>Papers & Insights</p>
+            </a>
+            <a href="/building" class="pillar-card">
+                <span class="pillar-icon">🛠️</span>
+                <h3>Building</h3>
+                <p>Projects & Code</p>
+            </a>
+            <a href="/about" class="pillar-card">
+                <span class="pillar-icon">👋</span>
+                <h3>About</h3>
+                <p>Life & Interests</p>
+            </a>
+        </div>
+
+        <style>
+            .user-pillars {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem;
+                margin: 2rem 0;
+            }
+            .pillar-card {
+                background: var(--entry);
+                padding: 1.5rem;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                text-decoration: none;
+                color: var(--primary);
+                width: 160px;
+                transition: transform 0.2s, box-shadow 0.2s;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .pillar-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            }
+            .pillar-icon {
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+                display: block;
+            }
+            .pillar-card h3 {
+                margin: 0.5rem 0;
+                font-size: 1.2rem;
+                color: var(--primary);
+            }
+            .pillar-card p {
+                margin: 0;
+                font-size: 0.9rem;
+                color: var(--secondary);
+                font-weight: normal;
+                line-height: 1.2;
+            }
+        </style>
+        
+        
+    </div>
+    {{- end}}
+    <script src="{{ "js/zero_g.js" | absURL }}"></script>
+</div>

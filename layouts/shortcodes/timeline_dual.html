@@ -1,0 +1,70 @@
+<div class="timeline-header-row">
+    <div class="col-header header-left">Academic</div>
+    <div class="col-header header-right">Industry</div>
+</div>
+
+<div class="timeline-dual">
+    {{ .Inner }}
+</div>
+
+<style>
+    .timeline-header-row {
+        display: flex;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto 1rem auto;
+        padding: 0 1rem;
+        color: var(--primary);
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.9rem;
+    }
+    .col-header {
+        width: 50%;
+    }
+    .header-left { text-align: right; padding-right: 30px; }
+    .header-right { text-align: left; padding-left: 30px; }
+
+    .timeline-dual {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    /* Central Axis */
+    .timeline-dual::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 2px;
+        background: var(--border);
+        transform: translateX(-50%);
+    }
+    /* Clearfix for floats */
+    .timeline-dual::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    @media (max-width: 768px) {
+        .timeline-header-row { display: none; }
+        .timeline-dual::before { left: 6px; transform: none; }
+        .timeline-item-left, .timeline-item-right {
+            width: 100%;
+            float: none;
+            padding-left: 25px;
+            padding-right: 0;
+            text-align: left;
+        }
+        .timeline-item-left .timeline-content, .timeline-item-right .timeline-content {
+            align-items: flex-start;
+        }
+        .timeline-item-left .timeline-marker, .timeline-item-right .timeline-marker {
+            left: -19.5px;
+            right: auto;
+        }
+    }
+</style>

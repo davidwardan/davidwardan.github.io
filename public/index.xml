@@ -6,61 +6,82 @@
     <description>Recent content on David&#39;s Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Mar 2025 22:50:29 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beirut Construction Age Classification</title>
-      <link>http://localhost:1313/projects/project1/</link>
-      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>http://localhost:1313/projects/project1/</guid>
-      <description>Classifying Beirut’s building construction periods using advanced deep learning and street-view imagery.</description>
+      <title>Walter</title>
+      <link>http://localhost:1313/building/walter/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/building/walter/</guid>
+      <description>AI-powered crypto trading agent and market analyzer.</description>
     </item>
     <item>
-      <title>Disadvantaged Area Detection in Beirut using Satellite Imagery</title>
-      <link>http://localhost:1313/projects/project2/</link>
-      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>http://localhost:1313/projects/project2/</guid>
-      <description>Identifying disadvantaged areas in Beirut through satellite imagery analysis and machine learning techniques.</description>
+      <title>Beirut Construction Period Classifier</title>
+      <link>http://localhost:1313/building/beirut-classifier/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/building/beirut-classifier/</guid>
+      <description>Deep learning model involving transfer learning to classify building ages from street-view photos.</description>
     </item>
     <item>
-      <title>Structural Scheming for Post-Tensioned Slabs using Machine Learning</title>
-      <link>http://localhost:1313/projects/project3/</link>
-      <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>http://localhost:1313/projects/project3/</guid>
-      <description>A project leveraging machine learning to optimize the structural design and scheming of post-tensioned slabs.</description>
+      <title>DAURA</title>
+      <link>http://localhost:1313/building/daura/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/building/daura/</guid>
+      <description>Detection of Disadvantaged Urban Areas using satellite imagery.</description>
     </item>
     <item>
-      <title>About Me</title>
+      <title>Financial Bubble</title>
+      <link>http://localhost:1313/building/financial-bubble/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/building/financial-bubble/</guid>
+      <description>Analysis of financial bubbles and market behavior.</description>
+    </item>
+    <item>
+      <title>Chrono-Brush</title>
+      <link>http://localhost:1313/building/chrono-brush/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/building/chrono-brush/</guid>
+      <description>A lightweight, composable time-series cleaning pipeline.</description>
+    </item>
+    <item>
+      <title>Me</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;👋 &lt;strong&gt;Hi there! I&amp;rsquo;m David.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a Machine Learning Engineer and Data Scientist with roots firmly planted in Civil Engineering. Currently, I&amp;rsquo;m diving deep into a Ph.D. at Polytechnique Montréal, where I’m exploring how neural networks can continuously learn and adapt—without losing their minds (or mine).&lt;/p&gt;
-&lt;p&gt;Whether it&amp;rsquo;s ensuring infrastructure safety through advanced algorithms or navigating waves of data, I&amp;rsquo;m always looking for elegant solutions to complex problems.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-what-drives-my-research&#34;&gt;🎯 &lt;strong&gt;What drives my research:&lt;/strong&gt;&lt;/h3&gt;
+      <description>&lt;h1 id=&#34;not-just-a-neural-net&#34;&gt;Not Just a Neural Net&lt;/h1&gt;
+&lt;p&gt;When I&amp;rsquo;m not teaching computers to be smarter than me, I&amp;rsquo;m usually:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;🧠 &lt;strong&gt;Probabilistic Machine Learning&lt;/strong&gt;: Understanding uncertainty to build smarter, more reliable models.&lt;/li&gt;
-&lt;li&gt;🔄 &lt;strong&gt;Online and Continual Learning&lt;/strong&gt;: Crafting AI systems that continuously evolve in real-time without forgetting their past.&lt;/li&gt;
-&lt;li&gt;📈 &lt;strong&gt;Global Modelling of Time Series&lt;/strong&gt;: Capturing the big picture in temporal data, from earthquakes to financial markets.&lt;/li&gt;
-&lt;li&gt;🌉 &lt;strong&gt;Structural Health Monitoring&lt;/strong&gt;: Keeping our infrastructure safe and sound using cutting-edge AI and sensor data.&lt;/li&gt;
+&lt;li&gt;🏂 &lt;strong&gt;Snowboarding&lt;/strong&gt;: Gravity is my favorite physics engine to test.&lt;/li&gt;
+&lt;li&gt;🌊 &lt;strong&gt;Surfing&lt;/strong&gt;: Less successful physics testing, more water ingestion.&lt;/li&gt;
+&lt;li&gt;🐕 &lt;strong&gt;Debating my Shiba Inu&lt;/strong&gt;: He makes compelling arguments (usually involving treats).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-my-academic-journey&#34;&gt;📚 &lt;strong&gt;My Academic Journey:&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Ph.D. in Engineering&lt;/strong&gt;, &lt;em&gt;Polytechnique Montréal&lt;/em&gt; &lt;em&gt;(2024 - Present)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Master of Engineering&lt;/strong&gt;, &lt;em&gt;American University of Beirut&lt;/em&gt; &lt;em&gt;(2023)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bachelor’s of Engineering&lt;/strong&gt;, &lt;em&gt;Lebanese American University&lt;/em&gt; &lt;em&gt;(2020)&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;-when-i&#34;&gt;🏂🌊🐕 &lt;strong&gt;When I&amp;rsquo;m off-duty&amp;hellip;&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;If I’m not fine-tuning neural nets, you&amp;rsquo;ll probably find me balancing (or falling!) on something:&lt;/p&gt;</description>
+&lt;p&gt;I build stuff, break stuff, and occasionally fix stuff.&lt;/p&gt;
+&lt;h3 id=&#34;journey&#34;&gt;Journey&lt;/h3&gt;
+&lt;div class=&#34;timeline-header-row&#34;&gt;
+    &lt;div class=&#34;col-header header-left&#34;&gt;Academic&lt;/div&gt;
+    &lt;div class=&#34;col-header header-right&#34;&gt;Industry&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;timeline-dual&#34;&gt;
+    
+
+    &lt;div class=&#34;timeline-item timeline-item-left&#34;&gt;
+    &lt;div class=&#34;timeline-marker&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;timeline-content&#34;&gt;
+        &lt;span class=&#34;timeline-date&#34;&gt;Jan 2024 - Present&lt;/span&gt;
+        &lt;h4 class=&#34;timeline-title&#34;&gt;Ph.D. Researcher&lt;/h4&gt;
+        &lt;span class=&#34;timeline-subtitle&#34;&gt;Polytechnique Montréal&lt;/span&gt;
+        
+        &lt;div class=&#34;timeline-desc-container&#34;&gt;
+            &lt;p class=&#34;timeline-desc&#34;&gt;&lt;pre&gt;&lt;code&gt;Developing global probabilistic neural networks for time series forecasting. Focusing on online continual learning.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/p&gt;</description>
     </item>
     <item>
       <title>new post</title>
-      <link>http://localhost:1313/posts/post1/</link>
+      <link>http://localhost:1313/research/post1/</link>
       <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post1/</guid>
+      <guid>http://localhost:1313/research/post1/</guid>
       <description></description>
     </item>
   </channel>

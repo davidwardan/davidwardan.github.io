@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/tags/satellite-imagery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disadvantaged Area Detection in Beirut using Satellite Imagery</title>
-      <link>http://localhost:1313/projects/project2/</link>
+      <link>http://localhost:1313/building/project2/</link>
       <pubDate>Fri, 28 Mar 2025 22:50:29 -0400</pubDate>
-      <guid>http://localhost:1313/projects/project2/</guid>
+      <guid>http://localhost:1313/building/project2/</guid>
       <description>Identifying disadvantaged areas in Beirut through satellite imagery analysis and machine learning techniques.</description>
     </item>
   </channel>

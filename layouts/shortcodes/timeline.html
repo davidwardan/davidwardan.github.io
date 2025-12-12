@@ -1,0 +1,22 @@
+<div class="timeline">
+    {{ .Inner }}
+</div>
+
+<style>
+    .timeline {
+        position: relative;
+        max-width: 600px;
+        margin: 2rem auto;
+        padding-left: 20px;
+    }
+    .timeline::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 6px;
+        width: 2px;
+        background: var(--border);
+        border-radius: 2px;
+    }
+</style>

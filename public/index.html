@@ -152,18 +152,18 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
+                <a href="http://localhost:1313/research/" title="Research">
+                    <span>Research</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts/" title="Posts">
-                    <span>Posts</span>
+                <a href="http://localhost:1313/building/" title="Building">
+                    <span>Building</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
-                    <span>Projects</span>
+                <a href="http://localhost:1313/about/" title="Me">
+                    <span>Me</span>
                 </a>
             </li>
         </ul>
@@ -171,10 +171,48 @@ document.addEventListener("DOMContentLoaded", function() {
 </header>
 <main class="main"><div class="profile">
     <div class="profile_inner">
-        <img draggable="false" src="http://localhost:1313/images/profile.png" alt="David Wardan" title="David Wardan"
-            height="120" width="120" />
-        <h1>👋 Hello, Early Visitor!</h1>
-        <span>You&rsquo;ve arrived early—like, really early. Come back in a month or two while I figure out how to build this thing!</span><div class="social-icons" >
+            
+            <div class="profile-image-container">
+                <img class="profile-image-normal" draggable="false" src="http://localhost:1313/images/profile.png" alt="David Wardan" title="David Wardan"
+                    height="120" width="120" />
+                <img class="profile-image-cartoon" draggable="false" src="http://localhost:1313/images/profile_cartoon.png" alt="David Wardan cartoon" title="David Wardan Cartoon"
+                    height="120" width="120" />
+            </div>
+
+            <style>
+                .profile-image-container {
+                    position: relative;
+                    display: inline-block;
+                    width: 120px;
+                    height: 120px;
+                    margin-bottom: var(--gap);
+                }
+                .profile-image-container img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    transition: opacity 0.1s ease-in-out;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .profile-image-normal {
+                    opacity: 1;
+                    z-index: 2;
+                }
+                .profile-image-cartoon {
+                    opacity: 0;
+                    z-index: 1;
+                }
+                .profile-image-container:hover .profile-image-normal {
+                    opacity: 0;
+                }
+                .profile-image-container:hover .profile-image-cartoon {
+                    opacity: 1;
+                    z-index: 3;
+                }
+            </style>
+        <h1>Hi, I&rsquo;m David.</h1>
+        <span>Machine Learning Engineer &amp; Researcher. Building AI that understands the world, one probability distribution at a time.</span><div class="social-icons" >
     <a href="https://github.com/davidwardan" target="_blank" rel="noopener noreferrer me"
         title="Github">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -211,8 +249,72 @@ document.addEventListener("DOMContentLoaded", function() {
 </svg>
     </a>
 </div>
+<div class="user-pillars">
+            <a href="./research" class="pillar-card">
+                <span class="pillar-icon">🧠</span>
+                <h3>Research</h3>
+                <p>Papers & Insights</p>
+            </a>
+            <a href="./building" class="pillar-card">
+                <span class="pillar-icon">🛠️</span>
+                <h3>Building</h3>
+                <p>Projects & Code</p>
+            </a>
+            <a href="./about" class="pillar-card">
+                <span class="pillar-icon">👋</span>
+                <h3>About</h3>
+                <p>Life & Interests</p>
+            </a>
+        </div>
 
+        <style>
+            .user-pillars {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem;
+                margin: 2rem 0;
+            }
+            .pillar-card {
+                background: var(--entry);
+                padding: 1.5rem;
+                border-radius: 12px;
+                border: 1px solid var(--border);
+                text-decoration: none;
+                color: var(--primary);
+                width: 160px;
+                transition: transform 0.2s, box-shadow 0.2s;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .pillar-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            }
+            .pillar-icon {
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+                display: block;
+            }
+            .pillar-card h3 {
+                margin: 0.5rem 0;
+                font-size: 1.2rem;
+                color: var(--primary);
+            }
+            .pillar-card p {
+                margin: 0;
+                font-size: 0.9rem;
+                color: var(--secondary);
+                font-weight: normal;
+                line-height: 1.2;
+            }
+        </style>
+        
+        
     </div>
+    <script src="http://localhost:1313/js/zero_g.js"></script>
 </div>
 
     </main>

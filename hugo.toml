@@ -13,8 +13,8 @@ canonifyURLs = true
 
   [params.profileMode]
     enabled = true
-    title = "👋 Hello, Early Visitor!"
-    subtitle = "You've arrived early—like, really early. Come back in a month or two while I figure out how to build this thing!"
+    title = "Hi, I'm David."
+    subtitle = "Machine Learning Engineer & Researcher. Building AI that understands the world, one probability distribution at a time."
     imageUrl = "images/profile.png"
     imageWidth = 120
     imageHeight = 120
@@ -45,16 +45,16 @@ canonifyURLs = true
     dir = ':cacheDir/images'
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
+  name = "Research"
+  url = "/research/"
   weight = 1
 
 [[menu.main]]
-  name = "Posts"
-  url = "/posts/"
+  name = "Building"
+  url = "/building/"
   weight = 2
 
 [[menu.main]]
-  name = "Projects"
-  url = "/projects/"
+  name = "Me"
+  url = "/about/"
   weight = 3

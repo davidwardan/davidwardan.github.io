@@ -1,0 +1,149 @@
+<div class="timeline-item {{ if .Get "side" }}timeline-item-{{ .Get "side" }}{{ end }}">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+        <span class="timeline-date">{{ .Get "date" }}</span>
+        <h4 class="timeline-title">{{ .Get "title" }}</h4>
+        <span class="timeline-subtitle">{{ .Get "subtitle" }}</span>
+        {{ if .Inner }}
+        <div class="timeline-desc-container">
+            <p class="timeline-desc">{{ .Inner | markdownify }}</p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+    .timeline-item {
+        position: relative;
+        margin-bottom: 2.5rem;
+    }
+    
+    /* Default Single Column Style (preserved) */
+    .timeline-item:not([class*="timeline-item-"]) {
+        padding-left: 25px;
+    }
+    .timeline-item:not([class*="timeline-item-"]) .timeline-marker {
+        position: absolute;
+        top: 5px;
+        left: -19.5px;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: var(--entry);
+        border: 2px solid var(--primary);
+        z-index: 1;
+    }
+
+    /* Dual Column Styles */
+    .timeline-item-left, .timeline-item-right {
+        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .timeline-item-left {
+        float: left;
+        clear: left;
+        padding-right: 30px;
+        text-align: right;
+    }
+    
+    .timeline-item-right {
+        float: right;
+        clear: right;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    /* Markers */
+    .timeline-item-left .timeline-marker {
+        right: -6.5px;
+        top: 5px;
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: var(--entry);
+        border: 2px solid var(--primary);
+        z-index: 2;
+    }
+
+    .timeline-item-right .timeline-marker {
+        left: -6.5px;
+        top: 5px;
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: var(--entry);
+        border: 2px solid var(--primary);
+        z-index: 2;
+    }
+
+    .timeline-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Description Styling - Minimal (No Cards) */
+    .timeline-desc-container {
+        margin-top: 0.5rem;
+        /* No background, no border */
+    }
+
+    /* Left Column Specifics */
+    .timeline-item-left .timeline-content {
+        align-items: flex-end; /* Align headers to right */
+    }
+    
+    .timeline-item-left .timeline-desc-container {
+        /* The container aligns to the right */
+        max-width: 90%; 
+    }
+    
+    .timeline-item-left .timeline-desc {
+        /* The text inside reads Left-to-Right for readability */
+        text-align: left;
+        /* Optional: aesthetic choice to make it look 'anchored' */
+        color: var(--content);
+    }
+
+    /* Right Column Specifics */
+    .timeline-item-right .timeline-content {
+        align-items: flex-start;
+    }
+    .timeline-item-right .timeline-desc-container {
+        max-width: 90%;
+    }
+
+    /* Typography */
+    .timeline-date {
+        font-size: 0.85rem;
+        color: var(--secondary);
+        background: var(--code-bg);
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 12px;
+        width: fit-content;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+    }
+    .timeline-title {
+        margin: 0;
+        font-size: 1.1rem;
+        color: var(--primary);
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    .timeline-subtitle {
+        font-size: 0.95rem;
+        color: var(--secondary);
+        margin-bottom: 0.25rem;
+        font-style: italic;
+    }
+    .timeline-desc {
+        margin: 0;
+        font-size: 0.95rem; /* Slightly larger for readability */
+        color: var(--content);
+        line-height: 1.6;
+    }
+</style>

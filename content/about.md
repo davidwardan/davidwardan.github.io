@@ -1,52 +1,51 @@
 ---
-title: "About Me"
-date: 2025-03-28
+title: "Me"
+date: 2025-12-12
 draft: false
 ---
 
-👋 **Hi there! I'm David.**
+# Not Just a Neural Net
 
-I'm a Machine Learning Engineer and Data Scientist with roots firmly planted in Civil Engineering. Currently, I'm diving deep into a Ph.D. at Polytechnique Montréal, where I’m exploring how neural networks can continuously learn and adapt—without losing their minds (or mine).
+When I'm not teaching computers to be smarter than me, I'm usually:
 
-Whether it's ensuring infrastructure safety through advanced algorithms or navigating waves of data, I'm always looking for elegant solutions to complex problems.
+- 🏂 **Snowboarding**: Gravity is my favorite physics engine to test.
+- 🌊 **Surfing**: Less successful physics testing, more water ingestion.
+- 🐕 **Debating my Shiba Inu**: He makes compelling arguments (usually involving treats).
 
----
+I build stuff, break stuff, and occasionally fix stuff.
 
-### 🎯 **What drives my research:**
+### Journey
 
-- 🧠 **Probabilistic Machine Learning**: Understanding uncertainty to build smarter, more reliable models.
-- 🔄 **Online and Continual Learning**: Crafting AI systems that continuously evolve in real-time without forgetting their past.
-- 📈 **Global Modelling of Time Series**: Capturing the big picture in temporal data, from earthquakes to financial markets.
-- 🌉 **Structural Health Monitoring**: Keeping our infrastructure safe and sound using cutting-edge AI and sensor data.
+{{< timeline_dual >}}
 
----
+    {{< timeline_item side="left" date="Jan 2024 - Present" title="Ph.D. Researcher" subtitle="Polytechnique Montréal" >}}
+    Developing global probabilistic neural networks for time series forecasting. Focusing on online continual learning.
+    {{< /timeline_item >}}
 
-### 📚 **My Academic Journey:**
+    {{< timeline_item side="right" date="2023 - Present" title="Machine Learning Engineer" subtitle="Auxiliary AI" >}}
+    Building AI-powered tools and agentic systems.
+    {{< /timeline_item >}}
 
-- **Ph.D. in Engineering**, *Polytechnique Montréal* _(2024 - Present)_
-- **Master of Engineering**, *American University of Beirut* _(2023)_
-- **Bachelor’s of Engineering**, *Lebanese American University* _(2020)_
+    {{< timeline_item side="right" date="Mar 2023 - Sep 2023" title="GIS Intern" subtitle="UN-Habitat (United Nations)" >}}
+    Deep learning on satellite imagery for socioeconomic analysis.
+    {{< /timeline_item >}}
 
----
+    {{< timeline_item side="right" date="Aug 2022 - Nov 2023" title="Structural Design Engineer" subtitle="CCL" >}}
+    AI-driven structural design and project scheming tools.
+    {{< /timeline_item >}}
 
-### 🏂🌊🐕 **When I'm off-duty...**
+    {{< timeline_item side="left" date="Sep 2020 - Aug 2023" title="Graduate Research Assistant" subtitle="American University of Beirut" >}}
+    Automated feature extraction and transformer-based classification.
+    {{< /timeline_item >}}
 
-If I’m not fine-tuning neural nets, you'll probably find me balancing (or falling!) on something:
+    {{< timeline_item side="right" date="Sep 2020 - Jun 2022" title="Teaching Fellow" subtitle="Teach For Lebanon" >}}
+    Empowering students through education and leadership.
+    {{< /timeline_item >}}
 
-- 🏔️ **Snowboarding** down fresh powder slopes.
-- 🌊 **Surfing** waves (still figuring out how gravity works).
-- 🐕 Debating life choices with my stubborn Shiba Inu, who firmly believes he’s the boss (he is).
+    {{< timeline_item side="left" date="2015 - 2019" title="Bachelor of Engineering" subtitle="Lebanese American University" >}}
+    Graduated with Distinction.
+    {{< /timeline_item >}}
 
----
+{{< /timeline_dual >}}
 
-### 📫 **Let's Connect!**
-
-I'm always happy to talk about research, ideas, or collaborations—or just share dog stories. Reach out:
-
-- 💬 [LinkedIn](https://www.linkedin.com/in/david-wardan/)
-- 🐙 [GitHub](https://github.com/davidwardan)
-- 📧 [wardandavid@gmail.com](mailto:wardandavid@gmail.com)
-
----
-
-*Last updated: April 22, 2025.*
+[Back to the garage](/building) | [Read my brain dump](/research)
