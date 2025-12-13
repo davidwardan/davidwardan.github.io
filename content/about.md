@@ -6,7 +6,7 @@ draft: false
 
 # Interests
 
-When my I do not have a keyboard in front of me, I enjoy:
+When I do not have a keyboard in front of me, I enjoy:
 
 {{< interests
 "🏂|Snowboarding"

@@ -49,7 +49,7 @@
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;interests&#34;&gt;Interests&lt;/h1&gt;
-&lt;p&gt;When my I do not have a keyboard in front of me, I enjoy:&lt;/p&gt;
+&lt;p&gt;When I do not have a keyboard in front of me, I enjoy:&lt;/p&gt;
 &lt;div class=&#34;interests-container&#34;&gt;
     &lt;div class=&#34;interest-item&#34;&gt;&lt;div class=&#34;interest-icon&#34;&gt;🏂&lt;/div&gt;
         &lt;div class=&#34;interest-text&#34;&gt;Snowboarding&lt;/div&gt;
@@ -129,11 +129,11 @@
 &lt;/p&gt;</description>
     </item>
     <item>
-      <title>new post</title>
-      <link>http://localhost:1313/research/post1/</link>
+      <title>Research Introduction</title>
+      <link>http://localhost:1313/research/introduction/</link>
       <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/post1/</guid>
-      <description></description>
+      <guid>http://localhost:1313/research/introduction/</guid>
+      <description>&lt;p&gt;I am currently working on my first post where I will explain the what and the why of my research.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
