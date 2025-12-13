@@ -1,27 +1,35 @@
 (function () {
   let zeroGEnabled = false;
   let clickCount = 0;
-  const TRIGGER_COUNT = 5;
+  const TRIGGER_COUNT = 3;
   const CLICK_TIMEOUT = 500;
   let clickTimer;
 
   function initTrigger() {
-    const subtitle = document.querySelector(".profile_inner span"); // Targeting the subtitle
-    if (!subtitle) return;
+    const triggerEl = document.querySelector(".profile-image-container"); // Targeting the profile image
+    
+    if (!triggerEl) {
+      console.warn("Zero-G: Profile image container not found.");
+      return;
+    }
 
-    subtitle.style.cursor = "pointer";
-    subtitle.title = "Click me...";
+    console.log("Zero-G: Initialized on profile image container.");
 
-    subtitle.addEventListener("click", (e) => {
+    triggerEl.style.cursor = "pointer";
+    triggerEl.title = "Click me...";
+
+    triggerEl.addEventListener("click", (e) => {
       clickCount++;
+      console.log(`Zero-G: Click count ${clickCount}`);
 
       // Visual feedback loop
-      subtitle.style.transform = `scale(${1 + clickCount * 0.05})`;
-      setTimeout(() => (subtitle.style.transform = "scale(1)"), 100);
+      triggerEl.style.transform = `scale(${1 + clickCount * 0.05})`;
+      setTimeout(() => (triggerEl.style.transform = "scale(1)"), 100);
 
       clearTimeout(clickTimer);
       clickTimer = setTimeout(() => {
         clickCount = 0;
+        console.log("Zero-G: Click timer reset");
       }, CLICK_TIMEOUT);
 
       if (clickCount >= TRIGGER_COUNT && !zeroGEnabled) {

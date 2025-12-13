@@ -14,7 +14,7 @@ canonifyURLs = true
   [params.profileMode]
     enabled = true
     title = "Hi, I'm David."
-    subtitle = "Machine Learning Engineer & Researcher. Building AI that understands the world, one probability distribution at a time."
+    subtitle = "Machine Learning Engineer & Researcher."
     imageUrl = "images/profile.png"
     imageWidth = 120
     imageHeight = 120

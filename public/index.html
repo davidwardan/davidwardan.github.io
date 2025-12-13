@@ -173,8 +173,6 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="profile-image-container">
                 <img class="profile-image-normal" draggable="false" src="http://localhost:1313/images/profile.png" alt="David Wardan" title="David Wardan"
                     height="120" width="120" />
-                <img class="profile-image-cartoon" draggable="false" src="http://localhost:1313/images/profile_cartoon.png" alt="David Wardan cartoon" title="David Wardan Cartoon"
-                    height="120" width="120" />
             </div>
 
             <style>
@@ -189,28 +187,15 @@ document.addEventListener("DOMContentLoaded", function() {
                     position: absolute;
                     top: 0;
                     left: 0;
-                    transition: opacity 0.1s ease-in-out;
                     border-radius: 50%;
                     object-fit: cover;
                 }
                 .profile-image-normal {
-                    opacity: 1;
                     z-index: 2;
-                }
-                .profile-image-cartoon {
-                    opacity: 0;
-                    z-index: 1;
-                }
-                .profile-image-container:hover .profile-image-normal {
-                    opacity: 0;
-                }
-                .profile-image-container:hover .profile-image-cartoon {
-                    opacity: 1;
-                    z-index: 3;
                 }
             </style>
         <h1>Hi, I&rsquo;m David.</h1>
-        <span>Machine Learning Engineer &amp; Researcher. Building AI that understands the world, one probability distribution at a time.</span><div class="social-icons" >
+        <span>Machine Learning Engineer &amp; Researcher.</span><div class="social-icons" >
     <a href="https://github.com/davidwardan" target="_blank" rel="noopener noreferrer me"
         title="Github">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -274,20 +259,22 @@ document.addEventListener("DOMContentLoaded", function() {
                 margin: 2rem 0;
             }
             .pillar-card {
-                background: var(--entry);
+                background: transparent;
                 padding: 1.5rem;
                 border-radius: 12px;
-                border: 1px solid var(--border);
+                border: 1px solid transparent;
                 text-decoration: none;
                 color: var(--primary);
                 width: 160px;
-                transition: transform 0.2s, box-shadow 0.2s;
+                transition: transform 0.2s, box-shadow 0.2s, background 0.2s, border-color 0.2s;
                 text-align: center;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
             }
             .pillar-card:hover {
+                background: var(--entry);
+                border: 1px solid var(--border);
                 transform: translateY(-5px);
                 box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             }
