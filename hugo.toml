@@ -16,8 +16,8 @@ canonifyURLs = true
     title = "Hi, I'm David."
     subtitle = "Machine Learning Engineer & Researcher."
     imageUrl = "images/profile.png"
-    imageWidth = 120
-    imageHeight = 120
+    imageWidth = 200
+    imageHeight = 200
     imageTitle = "David Wardan"
 
   [[params.socialIcons]]
