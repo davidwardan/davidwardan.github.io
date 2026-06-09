@@ -1,6 +1,6 @@
 ---
 title: "Research"
-description: "Exploring the boundaries of probabilistic deep learning and continual learning."
+description: "Exploring probabilistic deep learning, continual learning, and global time-series modelling."
 ---
 
 > All of my research is integrated into the open-source packages **[cuTAGI](https://github.com/lhnguyen102/cuTAGI)** and **[Canari](https://github.com/Bayes-Works/canari)**, which I actively contribute to and help maintain.

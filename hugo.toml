@@ -50,11 +50,16 @@ canonifyURLs = true
   weight = 1
 
 [[menu.main]]
+  name = "Talks"
+  url = "/talks/"
+  weight = 2
+
+[[menu.main]]
   name = "Building"
   url = "/building/"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 3
+  weight = 4

@@ -1,0 +1,66 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $talkPages := where .RegularPages "Params.hiddenInList" "!=" true }}
+
+<section class="research-section" aria-labelledby="talks-heading">
+  <div class="research-section-header">
+    <h2 id="talks-heading">Research Talks</h2>
+    <p>Presentations, seminar notes, and recordings from research discussions.</p>
+  </div>
+
+  {{- if $talkPages }}
+  <div class="talks-grid">
+    {{- range $talkPages.ByDate.Reverse }}
+      {{- template "talk-card" . }}
+    {{- end }}
+  </div>
+  {{- else }}
+  <p class="research-empty">Talks will appear here.</p>
+  {{- end }}
+</section>
+
+{{- end }}
+
+{{- define "talk-card" }}
+{{- $isCivMl := eq .Params.event "CIV-ML Seminar" }}
+{{- $isMeetup := eq .Params.event "Montreal AI ML Meetup Group" }}
+<article class="post-entry talk-entry{{ if $isCivMl }} talk-card-civ-ml{{ end }}{{ if $isMeetup }} talk-card-meetup{{ end }}">
+  <header class="entry-header">
+    <div class="talk-entry-heading">
+      <h2 class="entry-hint-parent">{{ .Title }}</h2>
+      {{- with .Params.event }}
+      <span class="talk-event-pill">{{ if eq . "CIV-ML Seminar" }}CIV-ML{{ else }}Meetup{{ end }}</span>
+      {{- end }}
+    </div>
+  </header>
+  <div class="entry-content">
+    <p>{{ if not .Date.IsZero }}{{ .Date | time.Format (default ":date_long" site.Params.DateFormat) }}{{ end }}{{ with .Params.talkTime }} · {{ . }}{{ end }}</p>
+  </div>
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- with .Params.venue -}}{{ . }}{{- end }}
+  </footer>
+  {{- end }}
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+{{- end }}

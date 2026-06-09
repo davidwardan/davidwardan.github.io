@@ -49,4 +49,4 @@ When I do not have a keyboard in front of me, I enjoy:
 
 {{< /timeline_dual >}}
 
-[Back to the garage](/building) | [Read my brain dump](/research)
+[Building →](/building) | [Research →](/research) | [Talks →](/talks)

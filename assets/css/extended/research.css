@@ -1,0 +1,304 @@
+.research-section {
+  margin-top: 32px;
+}
+
+.research-section-header {
+  margin-bottom: 14px;
+}
+
+.research-section-header h2 {
+  margin-bottom: 6px;
+  font-size: 1.45rem;
+}
+
+.research-section-header p {
+  margin: 0;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.blog-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 10px;
+}
+
+.research-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(140px, auto);
+  gap: 8px 14px;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+}
+
+.talk-card-civ-ml {
+  border-color: var(--border);
+}
+
+.talk-card-meetup {
+  border-color: var(--border);
+}
+
+.talk-entry {
+  padding: 18px;
+}
+
+.talk-entry-heading {
+  display: flex;
+  min-width: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.talk-entry-heading h2 {
+  min-width: 0;
+  font-size: 1.05rem;
+}
+
+.talk-event-pill {
+  flex: 0 0 auto;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 8px;
+  color: var(--secondary);
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+.talk-card-civ-ml .talk-event-pill {
+  border-color: #315f84;
+  background: #315f84;
+  color: #fff;
+}
+
+.talk-card-meetup .talk-event-pill {
+  border-color: #c96a1b;
+  background: #c96a1b;
+  color: #fff;
+}
+
+.talk-entry .entry-content {
+  margin-top: 10px;
+}
+
+.talk-entry .entry-footer {
+  margin-top: 6px;
+}
+
+.talks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--gap);
+}
+
+.talks-grid .post-entry {
+  margin-bottom: 0;
+}
+
+.blog-card {
+  display: block;
+  padding: 12px 14px;
+}
+
+.research-card header {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
+}
+
+.blog-card header {
+  display: block;
+}
+
+.research-card h3 {
+  min-width: 0;
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.3;
+}
+
+.blog-card h3 {
+  font-size: 0.96rem;
+  line-height: 1.3;
+}
+
+.research-card h3 a {
+  display: block;
+  overflow: hidden;
+  color: inherit;
+  box-shadow: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.blog-card h3 a {
+  display: inline;
+  overflow: visible;
+  text-overflow: clip;
+  white-space: normal;
+}
+
+.research-card h3 a::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.research-label {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--secondary);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.blog-card .research-label {
+  margin: 0 0 6px;
+}
+
+.research-meta {
+  display: flex;
+  min-width: 0;
+  flex-wrap: nowrap;
+  gap: 4px 8px;
+  margin: 0;
+  overflow: hidden;
+  color: var(--secondary);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.blog-card .research-meta {
+  flex-wrap: wrap;
+  margin-top: 8px;
+  overflow: visible;
+  white-space: normal;
+}
+
+.research-meta span:not(:first-child)::before {
+  margin-right: 8px;
+  color: var(--tertiary);
+  content: "/";
+}
+
+.research-summary {
+  display: none;
+}
+
+.blog-card .research-summary {
+  display: block;
+  margin: 12px 0 0;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+.research-links {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 12px;
+  margin-top: 14px;
+  font-size: 0.9rem;
+}
+
+.research-links:empty {
+  display: none;
+}
+
+.research-empty {
+  margin: 0;
+  padding: 16px 18px;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--secondary);
+}
+
+/* Building project page header */
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-top: 12px;
+}
+
+.project-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 11px;
+  color: var(--secondary);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.project-status::before {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--tertiary);
+  content: "";
+}
+
+.project-status[data-status="building"]::before {
+  background: #c96a1b;
+}
+
+.project-status[data-status="maintained"]::before {
+  background: #2e9e5b;
+}
+
+.project-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.project-github:hover {
+  color: var(--primary);
+}
+
+.project-aim {
+  margin: 16px 0 0;
+  padding-left: 14px;
+  border-left: 2px solid var(--border);
+  color: var(--secondary);
+  font-style: italic;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .talks-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .talk-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .talk-card .research-meta {
+    display: none;
+  }
+}
