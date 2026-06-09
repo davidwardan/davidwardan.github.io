@@ -40,70 +40,119 @@
   background: var(--entry);
 }
 
-.talk-card-civ-ml {
-  border-color: var(--border);
+/* Talks timeline (grouped by year) */
+.talks-timeline {
+  margin-top: 28px;
 }
 
-.talk-card-meetup {
-  border-color: var(--border);
+.talks-year {
+  margin-bottom: 30px;
 }
 
-.talk-entry {
-  padding: 18px;
-}
-
-.talk-entry-heading {
+.talks-year-label {
   display: flex;
-  min-width: 0;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 12px;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 12px;
+  color: var(--primary);
+  font-size: 1.4rem;
+  font-variant-numeric: tabular-nums;
 }
 
-.talk-entry-heading h2 {
-  min-width: 0;
-  font-size: 1.05rem;
+.talks-year-label::after {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+  content: "";
 }
 
-.talk-event-pill {
+.talks-year-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid var(--border);
+}
+
+.talk-row-link {
+  position: relative;
+  display: grid;
+  grid-template-columns: 3.2rem minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 3px 14px;
+  padding: 11px 10px 11px 22px;
+  border-radius: 8px;
+  color: inherit;
+  box-shadow: none !important;
+  transition: background 0.15s ease;
+}
+
+.talk-row-link::before {
+  position: absolute;
+  top: 50%;
+  left: -7px;
+  width: 11px;
+  height: 11px;
+  transform: translateY(-50%);
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  background: var(--theme);
+  content: "";
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.talk-row-link:hover {
+  background: var(--entry);
+}
+
+.talk-row-link:hover::before {
+  border-color: var(--primary);
+  background: var(--primary);
+}
+
+.talk-month {
+  color: var(--secondary);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.talk-title {
+  min-width: 0;
+  color: var(--primary);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.talk-tag {
+  display: inline-flex;
   flex: 0 0 auto;
+  align-items: center;
+  gap: 6px;
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 1px 8px;
+  padding: 1px 9px;
   color: var(--secondary);
-  font-size: 0.68rem;
+  font-size: 0.66rem;
   font-weight: 600;
-  line-height: 1.7;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
-.talk-card-civ-ml .talk-event-pill {
-  border-color: #315f84;
+.talk-tag::before {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--tertiary);
+  content: "";
+}
+
+.talk-tag[data-event="civ-ml"]::before {
   background: #315f84;
-  color: #fff;
 }
 
-.talk-card-meetup .talk-event-pill {
-  border-color: #c96a1b;
+.talk-tag[data-event="meetup"]::before {
   background: #c96a1b;
-  color: #fff;
-}
-
-.talk-entry .entry-content {
-  margin-top: 10px;
-}
-
-.talk-entry .entry-footer {
-  margin-top: 6px;
-}
-
-.talks-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--gap);
-}
-
-.talks-grid .post-entry {
-  margin-bottom: 0;
 }
 
 .blog-card {
@@ -290,15 +339,14 @@
 }
 
 @media (max-width: 640px) {
-  .talks-grid {
-    grid-template-columns: 1fr;
+  .talk-row-link {
+    grid-template-columns: 3rem minmax(0, 1fr);
+    gap: 4px 12px;
   }
 
-  .talk-card {
-    grid-template-columns: minmax(0, 1fr);
-  }
-
-  .talk-card .research-meta {
-    display: none;
+  .talk-tag {
+    grid-column: 2;
+    justify-self: start;
+    margin-top: 2px;
   }
 }
